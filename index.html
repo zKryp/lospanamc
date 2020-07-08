@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/LosPanaMC-logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6726e9e6d8.js" crossorigin="anonymous"></script>
+    <title>LosPanaMC | Oficial</title>
+</head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <header>
+        <a href="index.html"><img class="logo" src="img/logo4.png" alt="Logo"></a>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="home-act" href="index.html">Inicio</a></li>
+                <li><a href="https://servidoresdeminecraft.es/server/status/B9zhJ3/lospanamc.craft.gg" target="_blank">Votar servidor</a></li>
+                <li><a href="https://discord.gg/JX8eKay" target="_blank">Discord</a></li>
+                <li><a href="plugins.html">Plugins</a></li>
+            </ul>
+        </nav>
+        <a href="https://lospanamc.tebex.io/" class="cta" target="_blank"><button>Tienda</button></a>
+    </header>
+    <div class="image-mc"><img src="" alt=""></div>
+    <main>
+        <section class="contenedor servidor">
+            <h2 class="titulo">Sobre el Servidor</h2>
+            <div class="contenedor-servidor">
+                <img class="imagen-steve-alex" src="img/steve-alex.png" alt="Steve and Alex">
+                <div class="contenido-textos">
+                    <h3><span>1</span>IP: lospanamc.craft.gg</h3>
+                    <p>Servidor en desarrollo con varios plugins.</p>
+                    <h3><span>2</span>Modalidades</h3>
+                    <p>Survival. <br> Skywars (casi terminado).</p>
+                    <h3><span>3</span>Versión</h3>
+                    <p>Multiversión = Minecraft 1.8</p>
+                    <h3><span>4</span>Estado</h3>
+                    <p>El servidor se encuentra Estable.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor servidor">
+            <h2 class="titulo">Normas</h2>
+            <div class="contenedor-servidorr">
+                <div class="contenido-textoss">
+                    <h3><span>!</span>El Spam y el Flood esta totalmente prohibido <br>
+                        <span>!</span>Para publicar links pedir autorización antes o serás sancionado <br>
+                        <span>!</span>No uses Hacks ni Clientes Ilegales <br>
+                        <span>!</span>No uses nombres de usuario / avatares inapropiados <br>
+                        <span>!</span>Prohibido el uso excesivo de mayúsculas <br>
+                        <span>!</span>No mencionar otros Servidores / Networks <br>
+                        <span>!</span>Respeta las decisiones del Staff <br>
+                        <span>!</span>En el Survival se jugará con un poco de rol, seguir el rol :D <br>
+                        <span>!</span>No hacer Tpakill <br> 
+                        <span>!</span>Construcciones ofensivas serán quitadas <br>
+                        <span>!</span>No estafar a miembros del staff <br> 
+                        <span>!</span>Estafar a algún usuario en presencia de algún staff será sancionado <br>
+                        <span>!</span>Matar mascotas con Nickname preciados para la persona será sancionado <br>
+                        <span>!</span>No usar clientes (hackd, etc) o pack de texturas (xray, etc) que afecte al survival</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="footer-main-div">
+        <div class="footer-social-icons">
+            <ul>
+                <li><a href="https://discord.gg/JX8eKay" target="_blank"><i class="fab fa-discord"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://lospanamc.tebex.io/" target="_blank"><i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="https://servidoresdeminecraft.es/server/status/B9zhJ3/lospanamc.craft.gg" target="_blank"><i class="fas fa-poll"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-menu-one">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Design By: <span><i class="fab fa-discord"></i> zKryp#4175</span></p>
+    </div>
+    
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%"
+        }
+    </script>
+</body>
+</html>
