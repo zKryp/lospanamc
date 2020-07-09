@@ -454,7 +454,7 @@ a button:hover{
     p{
         font-size: 14px;
     }
-    h3{
+    -h3{
         font-size: 16px;
     }
     .image-mc{
@@ -469,6 +469,7 @@ a button:hover{
         width: 90%;
     }
     .contenido-textos p{
+        font-size: 14px;
         text-align: center;
         display: block;
         padding: 0;
@@ -476,6 +477,7 @@ a button:hover{
         margin-bottom: 10px;
     }
     .contenido-textos h3{
+        font-size: 18px;
         text-align: center;
         margin-bottom: 10px;
     }
@@ -505,5 +507,10 @@ a button:hover{
     }
     .brs{
         display: block;
+    }
+    .nav-links li a{
+        font-weight: 1000;
+        padding: 0;
+        font-size: 12px;
     }
 }
