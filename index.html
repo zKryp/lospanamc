@@ -2,8 +2,9 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
     <link rel="shortcut icon" href="img/LosPanaMC-logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/6726e9e6d8.js" crossorigin="anonymous"></script>
     <title>LosPanaMC | Oficial</title>
@@ -11,17 +12,21 @@
 <body>
     <div id="progressbar"></div>
     <div id="scrollPath"></div>
+    <div class="i-contenedor">
     <header>
         <a href="index.html"><img class="logo" src="img/logo4.png" alt="Logo"></a>
         <nav>
+            <div id="menu">
             <ul class="nav-links">
-                <li><a class="home-act" href="index.html">Inicio</a></li>
+                <li class="is-active"><a class="home-act" href="index.html">Inicio</a></li>
                 <li><a href="https://servidoresdeminecraft.es/server/status/B9zhJ3/lospanamc.craft.gg" target="_blank">Votar servidor</a></li>
                 <li><a href="https://discord.gg/JX8eKay" target="_blank">Discord</a></li>
-                <li><a href="plugins.html">Plugins</a></li>
+                <li><a class="shop-off" href="https://lospanamc.tebex.io/" target="_blank">Tienda</a></li>
+                <!-- <li><a href="plugins.html">Plugins</a></li> -->
             </ul>
         </nav>
         <a href="https://lospanamc.tebex.io/" class="cta" target="_blank"><button>Tienda</button></a>
+        </div>
     </header>
     <div class="image-mc"><img src="" alt=""></div>
     <main>
@@ -45,20 +50,51 @@
             <h2 class="titulo">Normas</h2>
             <div class="contenedor-servidorr">
                 <div class="contenido-textoss">
-                    <h3><span>!</span>El Spam y el Flood esta totalmente prohibido <br>
-                        <span>!</span>Para publicar links pedir autorización antes o serás sancionado <br>
-                        <span>!</span>No uses Hacks ni Clientes Ilegales <br>
-                        <span>!</span>No uses nombres de usuario / avatares inapropiados <br>
-                        <span>!</span>Prohibido el uso excesivo de mayúsculas <br>
-                        <span>!</span>No mencionar otros Servidores / Networks <br>
-                        <span>!</span>Respeta las decisiones del Staff <br>
-                        <span>!</span>En el Survival se jugará con un poco de rol, seguir el rol :D <br>
-                        <span>!</span>No hacer Tpakill <br> 
-                        <span>!</span>Construcciones ofensivas serán quitadas <br>
-                        <span>!</span>No estafar a miembros del staff <br> 
-                        <span>!</span>Estafar a algún usuario en presencia de algún staff será sancionado <br>
-                        <span>!</span>Matar mascotas con Nickname preciados para la persona será sancionado <br>
+                    <h3>
+                    <hr class="hrs">
+                    <br class="brs">
+                        <span>!</span>El Spam y el Flood esta totalmente prohibido <br><br class="brs">
+                    <hr class="hrs">
+                    <br class="brs">
+                        <span>!</span>Para publicar links pedir autorización antes o serás sancionado <br><br class="brs">
+                    <hr class="hrs">
+                    <br class="brs">
+                        <span>!</span>No uses Hacks ni Clientes Ilegales <br><br class="brs">
+                    <hr class="hrs">
+                    <br class="brs">
+                        <span>!</span>No uses nombres de usuario / avatares inapropiados <br><br class="brs">
+                    <hr class="hrs"> 
+                    <br class="brs">
+                        <span>!</span>Prohibido el uso excesivo de mayúsculas <br><br class="brs">
+                    <hr class="hrs"> 
+                    <br class="brs">
+                        <span>!</span>No mencionar otros Servidores / Networks <br><br class="brs">
+                    <hr class="hrs">  
+                    <br class="brs">
+                        <span>!</span>Respeta las decisiones del Staff <br><br class="brs">
+                    <hr class="hrs">   
+                    <br class="brs">
+                        <span>!</span>En el Survival se jugará con un poco de rol, seguir el rol :D <br><br class="brs">
+                    <hr class="hrs">   
+                    <br class="brs">
+                        <span>!</span>No hacer Tpakill <br><br class="brs">
+                    <hr class="hrs">    
+                    <br class="brs">
+                        <span>!</span>Construcciones ofensivas serán quitadas <br><br class="brs">
+                    <hr class="hrs">  
+                    <br class="brs"> 
+                        <span>!</span>No estafar a miembros del staff <br><br class="brs">
+                    <hr class="hrs">
+                    <br class="brs">
+                        <span>!</span>Estafar a algún usuario en presencia de algún staff será sancionado <br><br class="brs">
+                    <hr class="hrs">
+                    <br class="brs">
+                        <span>!</span>Matar mascotas con Nickname preciados para la persona será sancionado <br><br class="brs">
+                    <hr class="hrs">
+                    <br class="brs">
                         <span>!</span>No usar clientes (hackd, etc) o pack de texturas (xray, etc) que afecte al survival</h3>
+                    <hr class="hrs">
+                    <br class="brs">
                 </div>
             </div>
         </section>
@@ -81,6 +117,7 @@
     <div class="footer-bottom">
         <p>Design By: <span><i class="fab fa-discord"></i> zKryp#4175</span></p>
     </div>
+</div>
     
     <script type="text/javascript">
         let progress = document.getElementById('progressbar');
