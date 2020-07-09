@@ -320,4 +320,7 @@ a button:hover{
         background-attachment: fixed;
         transition: 1s ease;
     }
+    .imagen-steve-alex{
+        opacity: 0;
+    }
 }
