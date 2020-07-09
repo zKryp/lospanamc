@@ -193,6 +193,9 @@ a button:hover{
     font-weight: 300;
     text-align: justify;
 }
+    .imagen-steve-alex{
+        opacity: 100%;
+}
 .footer-main-div{
     width: 100%;
     height: auto;
@@ -321,6 +324,6 @@ a button:hover{
         transition: 1s ease;
     }
     .imagen-steve-alex{
-        opacity: 0;
+        opacity: 0%;
     }
 }
